@@ -1,0 +1,12 @@
+@import "variables";
+
+body,
+html {
+  font-family: $primaryFont;
+}
+
+.wrapper {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}

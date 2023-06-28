@@ -5,7 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Skinned By Nature</title>
-    <link rel="stylesheet" type="text/css" href="/styles/style.css">
+    <link rel="stylesheet" type="text/css" href="/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
 
     <script
       src="https://kit.fontawesome.com/6f8a15cb49.js"
@@ -14,7 +20,7 @@
   </head>
   <body>
     <header>
-      <wrapper>
+      <div class="wrapper">
         <div class="announcements">
           <div class="audio-player audio-off">
             <i class="fa-solid fa-volume-xmark fa-xl"></i>
@@ -34,7 +40,7 @@
           </div>
         </div>
         <div class="logo">
-          <img src="" alt="skinned by nature logo" />
+          <img src="/assets/logo.svg" alt="skinned by nature logo" />
         </div>
         <nav>
           <div class="search-button">
@@ -91,52 +97,198 @@
               </div>
             </div>
           </div>
-          <div class="cart-like-fav-container"></div>
-          <i class="fa-solid fa-heart fa-xl"></i>
-          <i class="fa-solid fa-cart-shopping fa-xl"></i>
-          <i class="fa-solid fa-user fa-xl"></i>
+          <div class="cart-like-fav-container">
+            <i class="fa-solid fa-heart fa-xl"></i>
+            <i class="fa-solid fa-cart-shopping fa-xl"></i>
+            <i class="fa-solid fa-user fa-xl"></i>
+          </div>
         </nav>
         <div class="hero-section">
-          <hr class="decorative-line-one" />
-          <hr class="decorative-line-two" />
-          <div class="image-container">
-            <img
-              src="/assets/model.png"
-              alt="model using skinned by nature products"
-            />
-            <div class="decorative-rectangle"></div>
-            <img src="/assets/bottle.png" alt="skinned by nature products" />
-          </div>
+          <div class="image-container"></div>
           <div class="text-container">
-            <h1>SKIN CARE DOESN'T HAVE TO BE COMPLICATED</h1>
+            <h1>SKIN CARE DOESN'T <span>HAVE TO BE COMPLICATED</span></h1>
             <h2>
-              We know finding the right products can be confusing, get some help
-              using our tailored help guides
+              We know finding the right products can be confusing,<span
+                >get some help using our tailored help guides</span
+              >
             </h2>
             <button>FIND THE PRODUCTS FOR YOU</button>
           </div>
-          <hr class="decorative-line-three" />
-          <hr class="decorative-line-four" />
         </div>
-      </wrapper>
+      </div>
     </header>
     <main>
-      <wrapper>
+      <div class="wrapper">
         <div class="unique-selling-points-container">
           <div class="point-one">
-            <img src="" alt="sustainable icon">
+            <img src="/assets/ecofriendly.svg" alt="sustainable icon" />
             <p>Sustainable Products</p>
           </div>
           <div class="point-two">
-            <img src="" alt="fist icon">
+            <img src="/assets/blackowned.svg" alt="fist icon" />
             <p>Black Owned</p>
           </div>
           <div class="point-three">
-            <img src="" alt="cruelty free icon">
+            <img src="/assets/animalcrueltyfree.svg" alt="cruelty free icon" />
             <p>No Animal Testing</p>
           </div>
         </div>
-      </wrapper>
+        <div class="product-container">
+          <div class="text-container">
+            <div class="title">NATURES SOLUTION FOR BEAUTIFUL SKIN</div>
+            <p>
+              Most of our customers never know where to begin or how to use
+              their products, find our most popular started packs for people who
+              are just new to their skin care journey.
+            </p>
+            <button>View All Skincare</button>
+          </div>
+          <div class="image-container">
+            <div class="product-image">
+              <img
+                src="/assets/Screen_Shot_2023-06-21_at_10.48.30_PM-removebg-preview.png"
+                alt="nourishing face oil product"
+              />
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <p>10ML</p>
+            <p class="product-name">Nourishing Face Oil</p>
+            <p class="price">$15.00</p>
+            <button class="add-to-cart-button">
+              ADD TO CART <i class="fa-solid fa-bag-shopping"></i>
+            </button>
+            <div class="rating-reviwes">
+              <div class="star-ratings">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <p class="review-number">17 Reviews</p>
+            </div>
+          </div>
+        </div>
+        <div class="banner-section">
+          <p>
+            Say goodbye to overwhelming skincare choices with our personalized
+            quiz
+          </p>
+          <button>TAKE OUR QUIZ</button>
+        </div>
+        <div class="customer-feedback-section">
+          <div class="customer-quote-one">
+            <div class="reviews">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <div class="quote">
+              <p>
+                I love this product so so much, I will definitely recommend for
+                people who don’t want something too harsh
+              </p>
+              <p>Tyler Shaw</p>
+            </div>
+          </div>
+          <div class="banner-section-product-image">
+            <img src="" alt="" />
+            <div class="arrows">
+              <i class="fa-solid fa-arrow-left"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="customer-quote-two">
+            <div class="reviews">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <div class="quote">
+              <p>
+                I love this product so so much, I will definitely recommend for
+                people who don’t want something too harsh
+              </p>
+              <p>Tyler Shaw</p>
+            </div>
+          </div>
+          <p>
+            We are committed to providing our customers with a complete skincare
+            experience that not only improves the appearance of their skin but
+            also promotes overall wellness
+          </p>
+        </div>
+        <div class="social-media-section">
+          <div class="name">
+            <i class="fa-brands fa-instagram"></i>
+            <p>@SkinnedByNature</p>
+          </div>
+          <div class="image-container">
+            <img src="/assets/bottles.png" alt="nourishing oil product image" />
+            <img
+              src="/assets/products.png"
+              alt="nourishing oil product image"
+            />
+            <img
+              src="/assets/productBottle.png"
+              alt="nourishing oil product image"
+            />
+            <img src="/assets/jars.png" alt="product image skin butter" />
+          </div>
+          <button>START SHOPPING</button>
+        </div>
+      </div>
     </main>
+    <footer>
+      <wrapper>
+        <div class="social-media-links">
+          <i class="fa-brands fa-tiktok"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+        <h2>Interested in being updated?</h2>
+        <p>
+          All the latets product releases, discount offers and sales straight to
+          your email!
+        </p>
+        <form>
+          <label for="email"></label>
+          <input
+            id="email"
+            type="text"
+            placeholder="Enter your email address here"
+            required
+          />
+          <button>JOIN</button>
+        </form>
+        <div class="footer-navigation">
+          <div>
+            <p>SKINCARE</p>
+            <p>SHOP ALL</p>
+            <p>DRY SKIN</p>
+            <p>OILY SKIN</p>
+          </div>
+          <div>
+            <p>ABOUT US/</p>
+            <p></p>
+            <p>CONTACT</p>
+            <p>OUR STORY</p>
+            <p>OUR MISSION</p>
+          </div>
+          <div>
+            <p>SOCIALS</p>
+            <p>TWITTER</p>
+            <p>INSTAGRAM</p>
+            <p>TIKTOK</p>
+          </div>
+          <div class="payment-container"></div>
+        </div>
+      </wrapper>
+    </footer>
+    <script type="module" src="/scripts.js/script.js"></script>
   </body>
 </html>

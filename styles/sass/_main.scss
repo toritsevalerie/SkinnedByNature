@@ -1,0 +1,20 @@
+.unique-selling-points-container {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+  .point-one,
+  .point-two,
+  .point-three {
+    display: flex;
+  }
+  .point-one img,
+  .point-two img,
+  .point-three img {
+    max-width: 50px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 5px;
+    margin-right: 10px;
+  }
+}

@@ -2,6 +2,132 @@
   display: none;
 }
 
+.hero-section .text-container {
+  padding: 100px 0px 100px 0px;
+}
+
+h1 span,
+h2 span {
+  display: block;
+}
+
+.announcements {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.announcements p {
+  text-align: center;
+}
+.announcements .location-changer-drop-down,
+.announcements .audio-player {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.announcements .location-changer-drop-down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+.announcements .location-changer-drop-down img {
+  max-width: 40px;
+  max-height: 30px;
+}
+
 .location-changer-drop-down ul {
   display: none;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.navigation-bar ul {
+  padding-left: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.navigation-bar ul li {
+  list-style: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cart-like-fav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+.cart-like-fav-container i {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+body,
+html {
+  font-family: "Raleway", sans-serif;
+}
+
+.wrapper {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.unique-selling-points-container {
+  background-color: antiquewhite;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.unique-selling-points-container .point-one,
+.unique-selling-points-container .point-two,
+.unique-selling-points-container .point-three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.unique-selling-points-container .point-one img,
+.unique-selling-points-container .point-two img,
+.unique-selling-points-container .point-three img {
+  max-width: 50px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 5px;
+  margin-right: 10px;
 }
