@@ -26,25 +26,52 @@
             <i class="fa-solid fa-volume-xmark fa-xl"></i>
           </div>
           <p>FREE SHIPPING ON ORDERS OVER $50</p>
-          <div class="location-changer-drop-down">
-            <img src="/assets/uk.png" alt="united kingdom flag" />
-            <ul>
-              <li><img src="/assets/usaFlag.png" alt="usa flag" /></li>
+          <ul class="location-changer-drop-down">
+            <li>
+              <img
+                class="united-kingdom-flag"
+                src="/assets/uk.png"
+                alt="united kingdom flag"
+              />
+            </li>
+            <ul class="location-changer-drop-down-menu">
               <li>
-                <img src="/assets/canadianflag.png" alt="canadian flag" />
+                <img
+                  class="usa-flag"
+                  src="/assets/usaFlag.png"
+                  alt="usa flag"
+                />
               </li>
               <li>
-                <img src="/assets/nigerianFlag.png" alt="nigerian flag" />
+                <img
+                  class="canadian-flag"
+                  src="/assets/canadianflag.png"
+                  alt="canadian flag"
+                />
+              </li>
+              <li>
+                <img
+                  class="nigerian-flag"
+                  src="/assets/nigerianFlag.png"
+                  alt="nigerian flag"
+                />
               </li>
             </ul>
-          </div>
+          </ul>
         </div>
         <div class="logo">
-          <img src="/assets/logo.svg" alt="skinned by nature logo" />
+          <a href="/index.html"
+            ><img src="/assets/logo.svg" alt="skinned by nature logo"
+          /></a>
         </div>
         <nav>
           <div class="search-button">
             <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+            <form class="searchField" id="searchField">
+              <label for="searchInput"></label>
+              <input type="text" id="searchInput" />
+              <button type="submit">Go</button>
+            </form>
           </div>
           <div class="navigation-bar">
             <ul>
@@ -135,37 +162,41 @@
         </div>
         <div class="product-container">
           <div class="text-container">
-            <div class="title">NATURES SOLUTION FOR BEAUTIFUL SKIN</div>
+            <h2 class="title">NATURES SOLUTION FOR BEAUTIFUL SKIN</h2>
             <p>
               Most of our customers never know where to begin or how to use
               their products, find our most popular started packs for people who
               are just new to their skin care journey.
             </p>
-            <button>View All Skincare</button>
+            <div class="button-container">
+              <button>View All Skincare</button>
+            </div>
           </div>
           <div class="image-container">
-            <div class="product-image">
-              <img
-                src="/assets/Screen_Shot_2023-06-21_at_10.48.30_PM-removebg-preview.png"
-                alt="nourishing face oil product"
-              />
-              <i class="fa-solid fa-heart"></i>
-            </div>
-            <p>10ML</p>
-            <p class="product-name">Nourishing Face Oil</p>
-            <p class="price">$15.00</p>
-            <button class="add-to-cart-button">
-              ADD TO CART <i class="fa-solid fa-bag-shopping"></i>
-            </button>
-            <div class="rating-reviwes">
-              <div class="star-ratings">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
+            <div class="product-display-container">
+              <div class="product-image">
+                <img
+                  src="/assets/Screen_Shot_2023-06-21_at_10.48.30_PM-removebg-preview.png"
+                  alt="nourishing face oil product"
+                />
+                <i class="fa-solid fa-heart"></i>
               </div>
-              <p class="review-number">17 Reviews</p>
+              <p>10ML</p>
+              <p class="product-name">Nourishing Face Oil</p>
+              <p class="price">$15.00</p>
+              <button class="add-to-cart-button">
+                ADD TO CART <i class="fa-solid fa-bag-shopping"></i>
+              </button>
+              <div class="rating-reviwes">
+                <div class="star-ratings">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="review-number">17 Reviews</p>
+              </div>
             </div>
           </div>
         </div>
@@ -216,7 +247,7 @@
               <p>Tyler Shaw</p>
             </div>
           </div>
-          <p>
+          <p class="company-quote">
             We are committed to providing our customers with a complete skincare
             experience that not only improves the appearance of their skin but
             also promotes overall wellness
@@ -224,7 +255,7 @@
         </div>
         <div class="social-media-section">
           <div class="name">
-            <i class="fa-brands fa-instagram"></i>
+            <div><i class="fa-brands fa-instagram fa-xl"></i></div>
             <p>@SkinnedByNature</p>
           </div>
           <div class="image-container">
@@ -246,9 +277,21 @@
     <footer>
       <wrapper>
         <div class="social-media-links">
-          <i class="fa-brands fa-tiktok"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-twitter"></i>
+          <ul>
+            <li>
+              <a href=""><i class="fa-brands fa-tiktok fa-xl"></i></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/skinned.bynature/?hl=en"
+                target="_blank"
+                ><i class="fa-brands fa-instagram fa-xl"></i
+              ></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-twitter fa-xl"></i></a>
+            </li>
+          </ul>
         </div>
         <h2>Interested in being updated?</h2>
         <p>
@@ -266,25 +309,30 @@
           <button>JOIN</button>
         </form>
         <div class="footer-navigation">
-          <div>
-            <p>SKINCARE</p>
-            <p>SHOP ALL</p>
-            <p>DRY SKIN</p>
-            <p>OILY SKIN</p>
-          </div>
-          <div>
-            <p>ABOUT US/</p>
-            <p></p>
-            <p>CONTACT</p>
-            <p>OUR STORY</p>
-            <p>OUR MISSION</p>
-          </div>
-          <div>
-            <p>SOCIALS</p>
-            <p>TWITTER</p>
-            <p>INSTAGRAM</p>
-            <p>TIKTOK</p>
-          </div>
+          <ul>
+            <li>SKINCARE</li>
+            <li><a href="/allProductsPage.html">SHOP ALL</a></li>
+            <li><a href="/skinType/dry.html">DRY SKIN</a></li>
+            <li><a href="/skinType/oilyCombination.html">OILY SKIN</a></li>
+          </ul>
+          <ul>
+            <li>ABOUT US</li>
+            <li><a href="">CONTACT</a></li>
+            <li><a href="">OUR STORY</a></li>
+            <li><a href="">OUR MISSION</a></li>
+          </ul>
+          <ul>
+            <li>SOCIALS</li>
+            <li><a href="">TWITTER</a></li>
+            <li>
+              <a
+                href="https://www.instagram.com/skinned.bynature/?hl=en"
+                target="_blank"
+                >INSTAGRAM</a
+              >
+            </li>
+            <li><a href="">TIKTOK</a></li>
+          </ul>
           <div class="payment-container"></div>
         </div>
       </wrapper>

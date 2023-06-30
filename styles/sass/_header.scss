@@ -13,8 +13,17 @@
     margin-bottom: 16px;
   }
   .location-changer-drop-down {
-    display: flex;
-    justify-content: end;
+    // display: flex;
+    // justify-content: end;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 390px;
+    li {
+      list-style: none;
+    }
+  }
+  .location-changer-drop-down li:hover {
+    transform: scale(1.5);
   }
 
   .location-changer-drop-down img {
@@ -22,10 +31,12 @@
     max-height: 30px;
   }
 }
-.location-changer-drop-down {
-  ul {
-    display: none;
-  }
+.location-changer-drop-down-menu {
+  display: none;
+}
+
+.location-changer-drop-down img:hover {
+  cursor: pointer;
 }
 .logo {
   text-align: center;
@@ -64,5 +75,34 @@ nav {
   i {
     margin-left: 10px;
     margin-right: 10px;
+  }
+}
+
+.navigation-bar {
+  .skincare-drop-down-menu {
+    display: none;
+  }
+}
+
+nav:hover {
+  cursor: pointer;
+}
+nav li:hover {
+  color: rgb(106, 103, 80);
+}
+
+.search-button {
+  // display: none;
+  display: flex;
+  form {
+    input {
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 1px solid black;
+    }
+    button {
+      display: none;
+    }
   }
 }

@@ -1,5 +1,71 @@
-.navigation-bar .skincare-drop-down-menu {
+.social-media-links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.social-media-links ul li {
+  margin: 10px;
+  list-style: none;
+}
+.social-media-links ul li a {
+  color: black;
+}
+
+footer h2 {
+  text-align: center;
+}
+footer p {
+  text-align: center;
+}
+footer form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+footer form label {
   display: none;
+}
+footer form input {
+  border: none;
+  background-color: grey;
+  text-align: center;
+  width: 400px;
+  height: 50px;
+}
+footer form button {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+}
+
+.footer-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 100px;
+}
+.footer-navigation ul {
+  margin: 10px 50px;
+}
+.footer-navigation li {
+  list-style: none;
+  margin: 10px;
+  text-align: center;
+}
+.footer-navigation a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
 }
 
 .hero-section .text-container {
@@ -26,20 +92,28 @@ h2 span {
   margin-bottom: 16px;
 }
 .announcements .location-changer-drop-down {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 390px;
+}
+.announcements .location-changer-drop-down li {
+  list-style: none;
+}
+.announcements .location-changer-drop-down li:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 .announcements .location-changer-drop-down img {
   max-width: 40px;
   max-height: 30px;
 }
 
-.location-changer-drop-down ul {
+.location-changer-drop-down-menu {
   display: none;
+}
+
+.location-changer-drop-down img:hover {
+  cursor: pointer;
 }
 
 .logo {
@@ -94,9 +168,45 @@ nav {
   margin-right: 10px;
 }
 
+.navigation-bar .skincare-drop-down-menu {
+  display: none;
+}
+
+nav:hover {
+  cursor: pointer;
+}
+
+nav li:hover {
+  color: rgb(106, 103, 80);
+}
+
+.search-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.search-button form input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+}
+.search-button form button {
+  display: none;
+}
+
 body,
 html {
   font-family: "Raleway", sans-serif;
+}
+
+ul {
+  padding: 0px;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 350;
 }
 
 .wrapper {
@@ -130,4 +240,112 @@ html {
   border-radius: 30px;
   padding: 5px;
   margin-right: 10px;
+}
+
+.product-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.product-container .text-container {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px 50px;
+}
+.product-container .text-container h2 {
+  padding-right: 200px;
+}
+.product-container .text-container p {
+  padding-right: 200px;
+  line-height: 25px;
+}
+.product-container .text-container .button-container {
+  padding-right: 200px;
+}
+.product-container .text-container button {
+  margin: 15px auto;
+  padding: 20px 45px;
+  background-color: white;
+  border: 1px black solid;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+.product-container .image-container {
+  width: 50%;
+}
+.product-container .image-container .product-display-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.product-container .image-container .product-display-container img {
+  width: 400px;
+}
+
+.customer-feedback-section .company-quote {
+  background-color: rgba(193, 210, 219, 0.58);
+  text-align: center;
+  padding: 10px 40px;
+}
+
+.social-media-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.social-media-section .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.social-media-section .name div {
+  margin-right: 10px;
+}
+.social-media-section .image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.social-media-section .image-container img {
+  width: 308px;
+}
+.social-media-section button {
+  margin: 30px auto;
+  padding: 20px 45px;
+  background-color: black;
+  border: 1px white solid;
+  color: white;
+  border-radius: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }

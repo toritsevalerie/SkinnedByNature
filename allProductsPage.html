@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skinned By Nature</title>
+    <link rel="stylesheet" type="text/css" href="/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/6f8a15cb49.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <div class="announcements">
+          <div class="audio-player audio-off">
+            <i class="fa-solid fa-volume-xmark fa-xl"></i>
+          </div>
+          <p>FREE SHIPPING ON ORDERS OVER $50</p>
+          <ul class="location-changer-drop-down">
+            <li>
+              <img
+                class="united-kingdom-flag"
+                src="/assets/uk.png"
+                alt="united kingdom flag"
+              />
+            </li>
+            <ul class="location-changer-drop-down-menu">
+              <li>
+                <img
+                  class="usa-flag"
+                  src="/assets/usaFlag.png"
+                  alt="usa flag"
+                />
+              </li>
+              <li>
+                <img
+                  class="canadian-flag"
+                  src="/assets/canadianflag.png"
+                  alt="canadian flag"
+                />
+              </li>
+              <li>
+                <img
+                  class="nigerian-flag"
+                  src="/assets/nigerianFlag.png"
+                  alt="nigerian flag"
+                />
+              </li>
+            </ul>
+          </ul>
+        </div>
+        <div class="logo">
+          <img src="/assets/logo.svg" alt="skinned by nature logo" />
+        </div>
+        <nav>
+          <div class="search-button">
+            <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+            <form class="searchField" id="searchField">
+              <label for="searchInput"></label>
+              <input type="text" id="searchInput" />
+              <button type="submit">Go</button>
+            </form>
+          </div>
+          <div class="navigation-bar">
+            <ul>
+              <li class="skincare-nav-button">SKINCARE</li>
+              <li class="new-nav-button">NEW</li>
+              <li class="for-your-skin-nav-button">FOR YOUR SKIN</li>
+              <li class="about-us-nav-button">ABOUT US</li>
+            </ul>
+            <div class="skincare-drop-down-menu">
+              <div class="category-all">
+                <p><a href="/allProductsPage.html">Shop All Products</a></p>
+              </div>
+              <div class="category-skin-concern">
+                <p>Skin Concern</p>
+                <ul>
+                  <li><a href="/skinConcern/acne.html">Acne</a></li>
+                  <li>
+                    <a href="/skinConcern/hyperpigmentation.html"
+                      >HyperPigmentation</a
+                    >
+                  </li>
+                  <li><a href="/skinConcern/pores.html">Pores</a></li>
+                  <li><a href="/skinConcern/blackheads.html">BlackHeads</a></li>
+                  <li><a href="/skinConcern/evenTone.html">Even Tone</a></li>
+                  <li>
+                    <a href="/skinConcern/dehydration.html">Dehydration</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="category-skin-type">
+                <p>Skin Type</p>
+                <ul>
+                  <li>
+                    <a href="/skinType/oilyCombination.html"
+                      >Oily/Combination</a
+                    >
+                  </li>
+                  <li><a href="/skinType/dry.html">Dry</a></li>
+                  <li><a href="/skinType/sensitive.html">Sensitive</a></li>
+                  <li><a href="skinType/balanced.html">Balanced</a></li>
+                </ul>
+              </div>
+              <div class="category-skin-part">
+                <p>Shop For</p>
+                <ul>
+                  <li><a href="/skinPart/body.html">Body</a></li>
+                  <li><a href="/skinPart/face.html">Face</a></li>
+                  <li><a href="/skinPart/eyes.html">Eyes</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="cart-like-fav-container">
+            <i class="fa-solid fa-heart fa-xl"></i>
+            <i class="fa-solid fa-cart-shopping fa-xl"></i>
+            <i class="fa-solid fa-user fa-xl"></i>
+          </div>
+        </nav>
+        <div class="hero-section">
+          <div class="image-container"></div>
+          <div class="text-container">
+            <h1>SKIN CARE DOESN'T <span>HAVE TO BE COMPLICATED</span></h1>
+            <h2>
+              We know finding the right products can be confusing,<span
+                >get some help using our tailored help guides</span
+              >
+            </h2>
+            <button>FIND THE PRODUCTS FOR YOU</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="wrapper">
+        <div class="AllProducts"></div>
+        <div class="searchResults"></div>
+        <!-- -->
+      </div>
+    </main>
+    <footer>
+      <wrapper>
+        <div class="social-media-links">
+          <ul>
+            <li>
+              <a href=""><i class="fa-brands fa-tiktok"></i></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/skinned.bynature/?hl=en"
+                target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </li>
+          </ul>
+        </div>
+        <h2>Interested in being updated?</h2>
+        <p>
+          All the latets product releases, discount offers and sales straight to
+          your email!
+        </p>
+        <form>
+          <label for="email"></label>
+          <input
+            id="email"
+            type="text"
+            placeholder="Enter your email address here"
+            required
+          />
+          <button>JOIN</button>
+        </form>
+        <div class="footer-navigation">
+          <ul>
+            <li>SKINCARE</li>
+            <li><a href="/allProductsPage.html">SHOP ALL</a></li>
+            <li><a href="/skinType/dry.html">DRY SKIN</a></li>
+            <li><a href="/skinType/oilyCombination.html">OILY SKIN</a></li>
+          </ul>
+          <ul>
+            <li>ABOUT US</li>
+            <li><a href="">CONTACT</a></li>
+            <li><a href="">OUR STORY</a></li>
+            <li><a href="">OUR MISSION</a></li>
+          </ul>
+          <ul>
+            <li>SOCIALS</li>
+            <li><a href="">TWITTER</a></li>
+            <li>
+              <a
+                href="https://www.instagram.com/skinned.bynature/?hl=en"
+                target="_blank"
+                >INSTAGRAM</a
+              >
+            </li>
+            <li><a href="">TIKTOK</a></li>
+          </ul>
+          <div class="payment-container"></div>
+        </div>
+      </wrapper>
+    </footer>
+    <script type="module" src="/scripts.js/script.js"></script>
+  </body>
+</html>

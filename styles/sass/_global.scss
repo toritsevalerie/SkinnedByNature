@@ -4,6 +4,13 @@ body,
 html {
   font-family: $primaryFont;
 }
+ul {
+  padding: 0px;
+}
+h2 {
+  font-family: $secondaryFont;
+  font-weight: 350;
+}
 
 .wrapper {
   max-width: 1300px;
