@@ -2,8 +2,6 @@
 
 // When the user clicks on the flag a drop down menu appears
 // When they click outside of the menu it goes away
-// Able to select one of three countries
-// Once a country is selected the placeholder image changes and so does the prices on the website
 
 const locationChanger = document.querySelector(".location-changer-drop-down");
 const imagelocationChanger = locationChanger.querySelector("img");
@@ -23,16 +21,44 @@ const handleLocationChange = () => {
 
 imagelocationChanger.addEventListener("click", handleLocationChange);
 
+// Able to select one of three countries
+// Once a country is selected the placeholder image changes
+// NEXT STEPS: Prices on website change
 
+const selectedFlag = document.querySelector(".selected");
+const selectedFlagimage = selectedFlag.querySelector("img");
+const ukFlag = document.querySelector(".uk-flag");
+const usFlag = document.querySelector(".usa-flag");
+const canadaFlag = document.querySelector(".canadian-flag");
+const nigeriaFlag = document.querySelector(".nigerian-flag");
 
+const handleLocationFlagClick = () => {
+  usFlag.addEventListener("click", () => {
+    selectedFlagimage.className = "usa-flag";
+    selectedFlagimage.src = "/assets/usaFlag.png";
+    selectedFlagimage.alt = "usa flag";
+  });
+  ukFlag.addEventListener("click", () => {
+    selectedFlagimage.className = "united-kingdom-flag";
+    selectedFlagimage.src = "/assets/uk.png";
+    selectedFlagimage.alt = "united kingdom flag";
+  });
+  canadaFlag.addEventListener("click", () => {
+    selectedFlagimage.className = "canadian-flag";
+    selectedFlagimage.src = "/assets/canadianflag.png";
+    selectedFlagimage.alt = "canada flag";
+  });
+  nigeriaFlag.addEventListener("click", () => {
+    selectedFlagimage.className = "nigerian-flag";
+    selectedFlagimage.src = "/assets/nigerianFlag.png";
+    selectedFlagimage.alt = "nigerian flag";
+  });
+};
 
-
+selectedFlag.addEventListener("click", handleLocationFlagClick);
 
 // Audio Off
 // When the user clicks on the audio off it changes to audio on and reads the page for non visual readers
-
-
-
 
 /* 
 
@@ -52,33 +78,15 @@ listen for submit when the user presses submit to run a function that
 
 */
 
-
-
-
-
-
 //Nav
 
-// listen for scroll on the window when its past a certain pixel make the nav fixed 
-
-
-
-
-
-
-
-
-
-
-
+// listen for scroll on the window when its past a certain pixel make the nav fixed
 
 // When user hovers on nav option drop down menu comes up, when they unhover click out of it it closes
 
 // Make the fixed drop down element stay stuck to the skincare nav button
 
 //When the user clicks on other options it takes them to seperate pages
-
-
 
 const skincareButtonNav = document.querySelector(".skincare-nav-button");
 const skincareDropDownMenu = document.querySelector(".skincare-drop-down-menu");
@@ -106,7 +114,7 @@ skincareButtonNav.addEventListener("mouseleave", () => {
   isSkincareMenuHovered = false;
   setTimeout(() => {
     handleSkinCareMouseLeave();
-  }, 200); 
+  }, 200);
 });
 
 skincareDropDownMenu.addEventListener("mouseenter", () => {
@@ -117,9 +125,3 @@ skincareDropDownMenu.addEventListener("mouseleave", () => {
   isSkincareMenuHovered = false;
   handleSkinCareMouseLeave();
 });
-
-
-
-
-
-

@@ -13,8 +13,6 @@
     margin-bottom: 16px;
   }
   .location-changer-drop-down {
-    // display: flex;
-    // justify-content: end;
     margin-top: 16px;
     margin-bottom: 16px;
     margin-left: 390px;
@@ -31,8 +29,12 @@
     max-height: 30px;
   }
 }
+
 .location-changer-drop-down-menu {
   display: none;
+  .active-flag {
+    border: 1px solid aqua;
+  }
 }
 
 .location-changer-drop-down img:hover {
