@@ -54,18 +54,68 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      img { 
+      img {
         width: 400px;
       }
     }
   }
 }
 
+.banner-section { 
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .customer-feedback-section {
+  .customer-quote-one,
+  .customer-quote-two {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .quote {
+      border-radius: 25px;
+      border: 1px solid black;
+      p {
+        text-align: center;
+        padding: 0px 20px;
+      }
+    }
+    .reviews {
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .customer-quote-one {
+    margin-left: 600px;
+  }
+  .customer-quote-two {
+   margin-right: 600px;
+  }
+
+  .banner-section-product-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px 20px 0px;
+    img {
+      width: 600px;
+    }
+    .arrows {
+      padding: 20px 0px;
+    }
+  }
   .company-quote {
     background-color: rgba(193, 210, 219, 0.58);
     text-align: center;
-    padding: 10px 40px;
+    padding: 50px 40px;
+    margin: 80px 0px;
   }
 }
 

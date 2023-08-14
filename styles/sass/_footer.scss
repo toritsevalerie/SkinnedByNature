@@ -59,3 +59,16 @@ footer {
     color: black;
   }
 }
+
+.payment-container { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.copyright { 
+  margin-top: 100px;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}

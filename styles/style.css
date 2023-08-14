@@ -68,6 +68,35 @@ footer form button {
   color: black;
 }
 
+.payment-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.copyright {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .hero-section .text-container {
   padding: 100px 0px 100px 0px;
 }
@@ -307,10 +336,90 @@ h2 {
   width: 400px;
 }
 
+.banner-section {
+  padding: 50px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.customer-feedback-section .customer-quote-one,
+.customer-feedback-section .customer-quote-two {
+  display: inline-block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.customer-feedback-section .customer-quote-one .quote,
+.customer-feedback-section .customer-quote-two .quote {
+  border-radius: 25px;
+  border: 1px solid black;
+}
+.customer-feedback-section .customer-quote-one .quote p,
+.customer-feedback-section .customer-quote-two .quote p {
+  text-align: center;
+  padding: 0px 20px;
+}
+.customer-feedback-section .customer-quote-one .reviews,
+.customer-feedback-section .customer-quote-two .reviews {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.customer-feedback-section .customer-quote-one {
+  margin-left: 600px;
+}
+.customer-feedback-section .customer-quote-two {
+  margin-right: 600px;
+}
+.customer-feedback-section .banner-section-product-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 0px 20px 0px;
+}
+.customer-feedback-section .banner-section-product-image img {
+  width: 600px;
+}
+.customer-feedback-section .banner-section-product-image .arrows {
+  padding: 20px 0px;
+}
 .customer-feedback-section .company-quote {
   background-color: rgba(193, 210, 219, 0.58);
   text-align: center;
-  padding: 10px 40px;
+  padding: 50px 40px;
+  margin: 80px 0px;
 }
 
 .social-media-section {
