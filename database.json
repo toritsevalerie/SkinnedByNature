@@ -1,0 +1,148 @@
+{
+  "inventory": [
+    {
+      "productImage": "skinned-by-nature/assets/productBottle.svg",
+      "productImageAlt": "product item",
+      "Productname": "Product Name",
+      "addtoCartIconAlt": "add to cart button",
+      "addtoCartIcon": "skinned-by-nature/assets/",
+      "addtoCartIconText": "ADD TO CART",
+      "wishlist": "skinned-by-nature/assets/likeButton.svg",
+      "wishlistAlt": "like button",
+      "price": "$23.45",
+      "productSize": "10ML"
+    },
+    {
+      "productImage": "skinned-by-nature/assets/productBottle.svg",
+      "productImageAlt": "product item",
+      "Productname": "Product Name",
+      "addtoCartIconAlt": "add to cart button",
+      "addtoCartIcon": "skinned-by-nature/assets/",
+      "addtoCartIconText": "ADD TO CART",
+      "wishlist": "skinned-by-nature/assets/likeButton.svg",
+      "wishlistAlt": "like button",
+      "price": "$23.45",
+      "productSize": "10ML"
+    },
+    {
+      "productImage": "skinned-by-nature/assets/productBottle.svg",
+      "productImageAlt": "product item",
+      "Productname": "Product Name",
+      "addtoCartIconAlt": "add to cart button",
+      "addtoCartIcon": "skinned-by-nature/assets/",
+      "addtoCartIconText": "ADD TO CART",
+      "wishlist": "skinned-by-nature/assets/likeButton.svg",
+      "wishlistAlt": "like button",
+      "price": "$23.45",
+      "productSize": "10ML"
+    },
+    {
+      "productImage": "skinned-by-nature/assets/productBottle.svg",
+      "productImageAlt": "product item",
+      "Productname": "Product Name",
+      "addtoCartIconAlt": "add to cart button",
+      "addtoCartIcon": "skinned-by-nature/assets/",
+      "addtoCartIconText": "ADD TO CART",
+      "wishlist": "skinned-by-nature/assets/likeButton.svg",
+      "wishlistAlt": "like button",
+      "price": "$23.45",
+      "productSize": "10ML"
+    },
+    {
+      "productImage": "skinned-by-nature/assets/productBottle.svg",
+      "productImageAlt": "product item",
+      "Productname": "Product Name",
+      "addtoCartIconAlt": "add to cart button",
+      "addtoCartIcon": "skinned-by-nature/assets/",
+      "addtoCartIconText": "ADD TO CART",
+      "wishlist": "skinned-by-nature/assets/likeButton.svg",
+      "wishlistAlt": "like button",
+      "price": "$23.45",
+      "productSize": "10ML"
+    },
+    {
+      "productImage": "skinned-by-nature/assets/productBottle.svg",
+      "productImageAlt": "product item",
+      "Productname": "Product Name",
+      "addtoCartIconAlt": "add to cart button",
+      "addtoCartIcon": "skinned-by-nature/assets/",
+      "addtoCartIconText": "ADD TO CART",
+      "wishlist": "skinned-by-nature/assets/likeButton.svg",
+      "wishlistAlt": "like button",
+      "price": "$23.45",
+      "productSize": "10ML"
+    },
+    {
+      "productImage": "skinned-by-nature/assets/productBottle.svg",
+      "productImageAlt": "product item",
+      "Productname": "Product Name",
+      "addtoCartIconAlt": "add to cart button",
+      "addtoCartIcon": "skinned-by-nature/assets/",
+      "addtoCartIconText": "ADD TO CART",
+      "wishlist": "skinned-by-nature/assets/likeButton.svg",
+      "wishlistAlt": "like button",
+      "price": "$23.45",
+      "productSize": "10ML"
+    },
+    {
+      "productImage": "skinned-by-nature/assets/productBottle.svg",
+      "productImageAlt": "product item",
+      "Productname": "Product Name",
+      "addtoCartIconAlt": "add to cart button",
+      "addtoCartIcon": "skinned-by-nature/assets/",
+      "addtoCartIconText": "ADD TO CART",
+      "wishlist": "skinned-by-nature/assets/likeButton.svg",
+      "wishlistAlt": "like button",
+      "price": "$23.45",
+      "productSize": "10ML"
+    },
+    {
+      "productImage": "skinned-by-nature/assets/productBottle.svg",
+      "productImageAlt": "product item",
+      "Productname": "Product Name",
+      "addtoCartIconAlt": "add to cart button",
+      "addtoCartIcon": "skinned-by-nature/assets/",
+      "addtoCartIconText": "ADD TO CART",
+      "wishlist": "skinned-by-nature/assets/likeButton.svg",
+      "wishlistAlt": "like button",
+      "price": "$23.45",
+      "productSize": "10ML"
+    },
+    {
+      "productImage": "skinned-by-nature/assets/productBottle.svg",
+      "productImageAlt": "product item",
+      "Productname": "Product Name",
+      "addtoCartIconAlt": "add to cart button",
+      "addtoCartIcon": "skinned-by-nature/assets/",
+      "addtoCartIconText": "ADD TO CART",
+      "wishlist": "skinned-by-nature/assets/likeButton.svg",
+      "wishlistAlt": "like button",
+      "price": "$23.45",
+      "productSize": "10ML"
+    },
+    {
+      "productImage": "skinned-by-nature/assets/productBottle.svg",
+      "productImageAlt": "product item",
+      "Productname": "Product Name",
+      "addtoCartIconAlt": "add to cart button",
+      "addtoCartIcon": "skinned-by-nature/assets/",
+      "addtoCartIconText": "ADD TO CART",
+      "wishlist": "skinned-by-nature/assets/likeButton.svg",
+      "wishlistAlt": "like button",
+      "price": "$23.45",
+      "productSize": "10ML"
+    }
+  ],
+  "shoppingCart": [
+    {
+      "productName": "Product Name",
+      "quantity": "1"
+    }
+  ],
+  "cartCount": [
+    {
+      "user": "",
+      "quantity": ""
+    }
+  ]
+}

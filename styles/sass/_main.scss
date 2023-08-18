@@ -1,0 +1,151 @@
+.unique-selling-points-container {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+  .point-one,
+  .point-two,
+  .point-three {
+    display: flex;
+  }
+  .point-one img,
+  .point-two img,
+  .point-three img {
+    max-width: 50px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 5px;
+    margin-right: 10px;
+  }
+}
+
+.product-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .text-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px;
+    h2 {
+      padding-right: 200px;
+    }
+    p {
+      padding-right: 200px;
+      line-height: 25px;
+    }
+    .button-container {
+      padding-right: 200px;
+    }
+    button {
+      margin: 15px auto;
+      padding: 20px 45px;
+      background-color: white;
+      border: 1px black solid;
+      color: rgb(0, 0, 0);
+      border-radius: 10px;
+    }
+  }
+  .image-container {
+    width: 50%;
+    .product-display-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 400px;
+      }
+    }
+  }
+}
+
+.banner-section { 
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.customer-feedback-section {
+  .customer-quote-one,
+  .customer-quote-two {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .quote {
+      border-radius: 25px;
+      border: 1px solid black;
+      p {
+        text-align: center;
+        padding: 0px 20px;
+      }
+    }
+    .reviews {
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .customer-quote-one {
+    margin-left: 600px;
+  }
+  .customer-quote-two {
+   margin-right: 600px;
+  }
+
+  .banner-section-product-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px 20px 0px;
+    img {
+      width: 600px;
+    }
+    .arrows {
+      padding: 20px 0px;
+    }
+  }
+  .company-quote {
+    background-color: rgba(193, 210, 219, 0.58);
+    text-align: center;
+    padding: 50px 40px;
+    margin: 80px 0px;
+  }
+}
+
+.social-media-section {
+  display: flex;
+  flex-direction: column;
+  .name {
+    display: flex;
+    align-items: center;
+
+    div {
+      margin-right: 10px;
+    }
+  }
+
+  .image-container {
+    display: flex;
+
+    img {
+      width: 308px;
+    }
+  }
+
+  button {
+    margin: 30px auto;
+    padding: 20px 45px;
+    background-color: black;
+    border: 1px white solid;
+    color: white;
+    border-radius: 10px;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,19 @@
+@import "variables";
+
+body,
+html {
+  font-family: $primaryFont;
+}
+ul {
+  padding: 0px;
+}
+h2 {
+  font-family: $secondaryFont;
+  font-weight: 350;
+}
+
+.wrapper {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
