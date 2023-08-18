@@ -1,17 +1,4 @@
-// Connecting Firebase
 
-import app from "../firebaseConfig.js";
-import {
-  getDatabase,
-  ref,
-  get,
-} from "https://www.gstatic.com/firebasejs/10.1.0/firebase-database.js";
-
-// reference the database
-
-const database = getDatabase(app);
-
-// reference the inventory section of the database 
 
 
 // Location-Changer
@@ -26,6 +13,7 @@ const dropdownLocationMenu = locationChanger.querySelector(
 );
 
 const handleLocationChange = () => {
+  console.log('kkkk');
   if (dropdownLocationMenu.style.display === "block") {
     dropdownLocationMenu.style.position = "absolute";
     dropdownLocationMenu.style.display = "";
