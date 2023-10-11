@@ -2,6 +2,8 @@
 
 Skinned By Nature is a skincare brand rooted in the United Kingdom, priding itself on producing natural products that not only benefit users but also remain kind to the environment. As part of a rebranding and redesign initiative, this repository houses the evolving digital presence of the brand, facilitating an enriching e-commerce experience for its community.
 
+Project Link: https://skinned-by-nature.netlify.app/
+
 ## 🌱 Project Background
 Emerging as a startup, Skinned By Nature recognized the need for a refreshing digital identity and an enhanced online shopping experience. As the lead developer, the vision is to nurture this repository into a fully-fledged, interactive e-commerce platform.
 
